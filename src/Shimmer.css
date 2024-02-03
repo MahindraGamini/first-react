@@ -1,0 +1,20 @@
+.restlist{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .shimmer-card{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin: 20px;
+    animation-name:shimm;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shimm{
+    0% {background-color: gray;}
+    25% {background-color: black;}
+    50% {background-color: black;}
+    100% {background-color: gray;}
+}
